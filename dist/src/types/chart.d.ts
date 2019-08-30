@@ -8,6 +8,7 @@ export interface IChart {
         [id: string]: ILink;
     };
     properties?: any;
+    variables?: any;
     /** System Temp */
     selected: ISelectedOrHovered;
     hovered: ISelectedOrHovered;
