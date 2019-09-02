@@ -8,10 +8,11 @@ export interface IChart {
   links: {
     [id: string]: ILink,
   }
-  properties?: any
-  variables?: any;
+  properties?: any,
+  variables?: any,
+  gamesetParams?: any,
   /** System Temp */
-  selected: ISelectedOrHovered
+  selected: ISelectedOrHovered,
   hovered: ISelectedOrHovered
 }
 
