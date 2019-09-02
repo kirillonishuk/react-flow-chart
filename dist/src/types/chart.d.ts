@@ -9,6 +9,7 @@ export interface IChart {
     };
     properties?: any;
     variables?: any;
+    gamesetParams?: any;
     /** System Temp */
     selected: ISelectedOrHovered;
     hovered: ISelectedOrHovered;
